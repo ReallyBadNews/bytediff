@@ -1,5 +1,11 @@
 # bytediff
 
+## 0.0.2
+
+### Patch Changes
+
+- fix bundler and entry point
+
 ## 0.0.1
 
 ### Patch Changes
