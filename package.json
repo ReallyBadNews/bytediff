@@ -1,8 +1,16 @@
 {
   "name": "bytediff",
+  "version": "0.0.0",
   "module": "index.tsx",
   "type": "module",
+  "scripts": {
+    "test": "vitest",
+    "start": "bun run ./index.tsx",
+    "build": "bun build ./index.tsx",
+    "changeset": "changeset"
+  },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@testing-library/jest-dom": "^6.1.4",
     "@testing-library/react": "^14.1.0",
     "@types/react": "^18.2.37",
