@@ -1,0 +1,20 @@
+{
+  "name": "bytediff",
+  "module": "index.tsx",
+  "type": "module",
+  "devDependencies": {
+    "@testing-library/jest-dom": "^6.1.4",
+    "@testing-library/react": "^14.1.0",
+    "@types/react": "^18.2.37",
+    "bun-types": "latest",
+    "ink-testing-library": "^3.0.0",
+    "vitest": "^0.34.6"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "ink": "^4.4.1",
+    "react": "^18.2.0"
+  }
+}
